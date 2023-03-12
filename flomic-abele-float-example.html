@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+        }
+        img {
+            width: 100%;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+        .row1 {
+            background-color: black;
+            color: white;
+            padding: 10px 0;
+        }
+        .row1 .container > div:not(.clearfix) {
+            float: left;
+            width: 50%;
+        }
+        .row1 .container > div:nth-last-child(2), .row2 .container > div:nth-last-child(2) {
+            text-align: right;
+        }
+        .clearfix {
+            clear: both;
+        }
+
+        .row2 .container > div:nth-child(1) {
+            float: left;
+            width: 25%;
+        }
+        .row2 .container > div:nth-child(2) {
+            float: left;
+            width: 75%;
+        }
+        .menu {
+            padding: 20px 0;
+        }
+        .menu ul {
+            list-style: none;
+            padding: 0;
+        }
+        .menu li, .menu a {
+            display: inline-block;
+            padding: 15px;
+            background-color: yellow;
+            color: black;
+            text-decoration: none;
+        }
+        /* .menu li:hover {
+            background-color: green;
+            color: white;
+        } */
+        .section1 {
+            background: url('images/placeholder.jpg') no-repeat center;
+            background-size: cover;
+            padding: 80px 0;
+        }
+        .section1 .container > div:not(.clearfix) {
+            float: left;
+            width: 33.33333333%;
+            padding: 5px;
+        }
+        .sec1col > div:nth-child(1) {
+            background-color: rgba(242, 242, 242, 0.624);
+            padding: 15px 40px;
+            font-size: 20px;
+            text-align: center;
+        }
+        .sec1col > div:nth-child(2) {
+            background-color: rgba(255, 255, 255, 0.624);
+            padding: 15px 30px;
+            line-height: 2;
+            font-size: 20px;
+        }
+        .sec1col > div:nth-child(3) {
+            background-color: rgba(137, 185, 86, 0.624);
+            color: white;
+            padding: 15px 30px;
+        }
+        .sec1col:hover div:nth-child(1) {
+            background-color: rgba(242, 242, 242, 1);
+        }
+        .sec1col:hover div:nth-child(2) {
+            background-color: rgba(255, 255, 255, 1);
+        }
+        .sec1col:hover div:nth-child(3) {
+            background-color: rgba(137, 185, 86, 1);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="row1">
+            <div class="container">
+                <div>LINK | LINK | LINK | LINK | LINK | LINK</div>
+                <div>+00 (123) 456 7890 | <span>&#128231;</span> EMAIL@DOMAIN.COM</div>
+                <div class="clearfix"></div>
+            </div>
+            
+        </div>
+        <div class="row2">
+            <div class="container">
+                <div>
+                    <img src="images/flomic-abele-logo.jpg" alt="logo">
+                </div>
+                <div>
+                    <nav class="menu">
+                        <!-- <ul>
+                            <li>Home</li>
+                            <li>Dropdown</li>
+                            <li>Page</li>
+                            <li>Link</li>
+                            <li>Link Text</li>
+                        </ul> -->
+                        <a href="">Home</a>
+                        <a href="">Dropdown</a>
+                        <a href="">Page</a>
+                        <a href="">Link</a>
+                        <a href="">Link Text</a>
+                    </nav>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="section1">
+            <div class="container">
+                <div class="sec1col">
+                    <div>
+                        <h3>QUISQUE VEHICULA URNA AMET</h3>
+                    </div>
+                    <div>
+                        ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper
+                    </div>
+                    <div>Read More &raquo;</div>
+                </div>
+                <div class="sec1col">
+                    <div>
+                        <h3>QUISQUE VEHICULA URNA AMET</h3>
+                    </div>
+                    <div>
+                        ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper
+                    </div>
+                    <div>Read More &raquo;</div>
+                </div>
+                <div class="sec1col">
+                    <div>
+                        <h3>QUISQUE VEHICULA URNA AMET</h3>
+                    </div>
+                    <div>
+                        ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper ullamcorper
+                    </div>
+                    <div>Read More &raquo;</div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </section>
+        <section>Section 2</section>
+        <section>Section 3</section>
+    </main>
+    <footer>
+        <section>Footer Widgets</section>
+        <section>Footer Copyright</section>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        /* p {
+            background-color: red;
+            margin: 0;
+            padding: 10px;
+        }
+        img {
+            float: left;
+        }
+         */
+
+        p {
+            background-color: aqua;
+        }
+        .row, .row2 {
+            background-color: black;
+            color: wheat;
+            padding: 15px;
+        }
+        .row > div:not(.clearfix) {
+            width: 33.33333333%;
+            float: left;
+            padding: 5px;
+        }
+
+        .row2 > div:first-child {
+            width: 30%;
+            float: left;
+            padding: 5px;
+        }
+        .col1 {
+            background-color: red;
+        }
+        .col2 {
+            background-color: green;
+        }
+        .col3 {
+            background-color: blue;
+        }
+        .clearfix {
+            clear: left;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="row">
+        <div>
+            <div class="col1">Column 1</div>
+        </div>
+        <div>
+            <div class="col2">Column 1</div>
+        </div>
+        <div>
+            <div class="col3">Column 1</div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus obcaecati iste provident, nemo vero, repellat id voluptate, quis distinctio quisquam perspiciatis ipsum amet? Amet voluptate quas facilis. Nam, vel explicabo?
+    </p>
+
+    <div class="row2">
+        <div>
+            <div class="col1">Column 1</div>
+        </div>
+        <div>
+            <div class="col2">Column 2</div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    
+
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus obcaecati iste provident, nemo vero, repellat id voluptate, quis distinctio quisquam perspiciatis ipsum amet? Amet voluptate quas facilis. Nam, vel explicabo?
+    </p>
+
+    <!-- <img src="images/background.jpeg" alt="" width="200">
+    <div class="clearfix"></div>
+
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus obcaecati iste provident, nemo vero, repellat id voluptate, quis distinctio quisquam perspiciatis ipsum amet? Amet voluptate quas facilis. Nam, vel explicabo?
+    </p>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit dolorem laborum inventore itaque neque et dolorum, exercitationem fuga accusamus iste deleniti, nobis expedita deserunt earum. Culpa ea obcaecati expedita tenetur!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, delectus provident doloribus fugiat excepturi consequuntur libero sint non veniam voluptatem dolore blanditiis expedita quaerat quo minima vel modi eum culpa.
+    </p> -->
+    
+</body>
+</html>
