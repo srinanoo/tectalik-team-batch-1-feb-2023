@@ -338,3 +338,14 @@ Direction:
     - right
     - bottom
     - left
+
+
+NOTES: 17-03-2023
+
+Tectalik Tasks
+    - task1 (folder) + github repo + 1st time alone use git init to initialise
+        - project files + folder
+    - task2 (folder) + github repo + 1st time alone use git init to initialise
+        - project files + folder
+    - task3 (folder) + github repo + 1st time alone use git init to initialise
+        - project files + folder
