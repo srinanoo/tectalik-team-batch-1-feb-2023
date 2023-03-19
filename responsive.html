@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        img {
+            max-width: 100%;
+        }
+        .row1 {
+            background-color: red;
+            padding: 5px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .row1 > div {
+            padding: 5px;
+            width: 16.6666666%;
+        }
+
+        .row2 {
+            background-color: green;
+            padding: 5px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .row2 > div {
+            padding: 5px;
+            width: 25%;
+        }
+
+        .row3 {
+            background-color: blue;
+            padding: 5px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .row3 > div {
+            padding: 5px;
+            width: 33.3333333%;
+        }
+
+        .row4 {
+            background-color: yellow;
+            padding: 5px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .row4 > div {
+            padding: 5px;
+            width: 50%;
+        }
+
+        .row5 {
+            background-color: linen;
+            padding: 5px;
+        }
+
+        @media only screen and (max-width: 576px) {
+            /* code comes here... */
+            .row1 > div, .row2 > div {
+                width: 50%;
+            }
+            .row3 {
+                justify-content: center;
+            }
+            .row3 > div:not(:last-child) {
+                width: 50%;
+            }
+            .row3 > div:last-child {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="row1">
+        <div><img src="images/background.jpeg"></div>
+        <div><img src="images/background.jpeg"></div>
+        <div><img src="images/background.jpeg"></div>
+        <div><img src="images/background.jpeg"></div>
+        <div><img src="images/background.jpeg"></div>
+        <div><img src="images/background.jpeg"></div>
+    </div>
+
+    <div class="row2">
+        <div><img src="images/background.jpeg"></div>
+        <div><img src="images/background.jpeg"></div>
+        <div><img src="images/background.jpeg"></div>
+        <div><img src="images/background.jpeg"></div>
+    </div>
+
+    <div class="row3">
+        <div><img src="images/background.jpeg"></div>
+        <div><img src="images/background.jpeg"></div>
+        <div><img src="images/background.jpeg"></div>
+    </div>
+
+    <div class="row4">
+        <div><img src="images/background.jpeg"></div>
+        <div><img src="images/background.jpeg"></div>
+    </div>
+
+    <div class="row5">
+        <div><img src="images/background.jpeg"></div>
+    </div>
+    
+</body>
+</html>

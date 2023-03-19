@@ -349,3 +349,67 @@ Tectalik Tasks
         - project files + folder
     - task3 (folder) + github repo + 1st time alone use git init to initialise
         - project files + folder
+
+
+NOTES: 18-03-2023
+
+Responsive
+    - Devices
+        - Mobile (Portrait & Landscape)
+        - Tablet (Portrait & Landscape)
+        - Laptop
+        - Desktop
+    - Screen Size
+        - Guided Range
+            576px
+            768px
+            992px
+            1200px
+            1400px
+        - Custom Range
+            500px / 600px
+            800px / 900px
+            1000px / 1200px
+            1200px / 1400px
+            1400px
+    - Who decides this?
+        - Client / PM / PL
+        - Given to you?
+            - Guided or Custom Range
+    
+    - Guided Screen sizes
+        576px
+        768px
+        992px
+        1200px
+        1400px
+
+    - Breakpoints
+        xs
+        sm
+        md
+        lg
+        xl
+        xxl
+
+    - Responsive Screens (Guided + Breakpoints)
+        xs = <576px (mobile - Portrait)
+        sm = >576px (mobile+)
+        md = >768px (tablet+)
+        lg = >992px (laptop+)
+        xl = >1200px (desktop basic+)
+        xxl = >1400px (large desktop)
+
+    - Range
+        < = max-width
+        > = min-width
+
+    - Syntax
+        - @media query
+            @media only screen and (max-width: 576px) {
+                /* this is where you rearrangement of rows and columns code will have to be placed */
+            }
+            or
+            @media (max-width: 576px) {
+                ....
+            }
