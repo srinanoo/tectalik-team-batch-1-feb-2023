@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .div1 {
+            background-color: red;
+        }
+        .div2 {
+            background-color: green;
+        }
+        .div3 {
+            background-color: yellow;
+        }
+        .div4 {
+            background-color: palegoldenrod;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        .parent {
+            border: solid;
+            width: 100px;
+            height: 68px;
+        }
+
+        /* p, div div {
+            position: absolute;
+            width: 100px;
+        } */
+        /* div p {
+            z-index: -1;
+        } */
+        .parent div:hover ~ p {
+            z-index: 1;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav li {
+            display: inline-block;
+            background-color: yellow;
+        }
+        nav .dropdown {
+            position: absolute;
+            background-color: antiquewhite;
+            display: none;
+        }
+        nav .dropdown a {
+            display: block;
+            text-decoration: none;
+            color: red;
+            padding: 5px;
+        }
+        nav li:hover .dropdown {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- <div class="div1">Div 1 Container</div>
+    <div class="div2">Div 2 Container</div>
+    <div class="div3">Div 3 Container</div>
+    <div class="div4">Div 4 Container</div> -->
+
+    <!-- <div>
+        <img src="images/close-1.png" alt="">
+        <p>
+            Paragraph Container
+        </p>
+    </div> -->
+
+    <!-- <div class="parent">
+        
+        <div>
+            <img src="images/background.jpeg" alt="">
+        </div>
+        <p>
+            Paragraph Container
+        </p>
+    </div> -->
+
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services
+                <div class="dropdown">
+                    <a href="">Sub Menu</a>
+                    <a href="">Sub Menu</a>
+                    <a href="">Sub Menu</a>
+                    <a href="">Sub Menu</a>
+                    <a href="">Sub Menu</a>
+                </div>
+            </li>
+            <li>Contact</li>
+            <li>Blog</li>
+        </ul>
+    </nav>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod sed nesciunt tempore aspernatur, perferendis qui dicta, aut veniam laudantium officiis praesentium esse voluptates quos delectus odio amet accusantium ipsum cupiditate.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod sed nesciunt tempore aspernatur, perferendis qui dicta, aut veniam laudantium officiis praesentium esse voluptates quos delectus odio amet accusantium ipsum cupiditate.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod sed nesciunt tempore aspernatur, perferendis qui dicta, aut veniam laudantium officiis praesentium esse voluptates quos delectus odio amet accusantium ipsum cupiditate.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod sed nesciunt tempore aspernatur, perferendis qui dicta, aut veniam laudantium officiis praesentium esse voluptates quos delectus odio amet accusantium ipsum cupiditate.</p>
+    
+</body>
+</html>

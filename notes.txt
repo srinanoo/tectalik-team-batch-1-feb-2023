@@ -413,3 +413,62 @@ Responsive
             @media (max-width: 576px) {
                 ....
             }
+
+
+NOTES: 31-03-2023
+
+Pseudo
+    <TAGNAME>
+        ::before => in JS will be called as "prepend"
+        ... content / child container
+        ::after => in JS will be called as "append"
+    </TAGNAME>
+
+Position
+    static
+    relative
+    absolute
+    fixed
+    sticky
+
+    - Test cases
+        - parent is static
+            - child is static
+                - at least have 3 or 4 containers
+                - try setting each child container as relative
+                    - try setting the spacing + direction properties and see what happens
+                    - try setting the direction properties and see what happens
+                - try setting each child container as absolute
+                    - try setting the spacing + direction properties and see what happens
+                    - try setting the direction properties and see what happens
+                - try setting different child container as relative/absolute
+                    - try setting the spacing + direction properties and see what happens
+                    - try setting the direction properties and see what happens
+            - child is relative
+                - at least have 3 or 4 containers
+                - try setting each child container as relative
+                    - try setting the spacing + direction properties and see what happens
+                    - try setting the direction properties and see what happens
+                - try setting each child container as absolute
+                    - try setting the spacing + direction properties and see what happens
+                    - try setting the direction properties and see what happens
+                - try setting different child container as relative/absolute
+                    - try setting the spacing + direction properties and see what happens
+                    - try setting the direction properties and see what happens
+            - child is absolute
+                - at least have 3 or 4 containers
+                - try setting each child container as relative
+                    - try setting the spacing + direction properties and see what happens
+                    - try setting the direction properties and see what happens
+                - try setting each child container as absolute
+                    - try setting the spacing + direction properties and see what happens
+                    - try setting the direction properties and see what happens
+                - try setting different child container as relative/absolute
+                    - try setting the spacing + direction properties and see what happens
+                    - try setting the direction properties and see what happens
+
+CSS Compatibility
+    property
+    -webkit-property
+    -moz-property
+    -o-property
