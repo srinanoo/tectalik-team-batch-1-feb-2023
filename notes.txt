@@ -472,3 +472,17 @@ CSS Compatibility
     -webkit-property
     -moz-property
     -o-property
+
+
+NOTES: 01-04-2023
+
+Media Query
+    - max-width
+        - screen sizes will be descending order
+
+    - (min-width:576px and max-width:992px)
+
+Explore
+    - min-width for media query
+        should use at lease 2 screen sizes (576, 768 + desktop)
+            - see what is the problem and let us know...

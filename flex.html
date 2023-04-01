@@ -12,14 +12,14 @@
         body {
             margin: 0;
         }
-        .row > div {
+        /* .row > div {
             float: left;
             width: 33.3333333%;
             padding: 5px;
             background-color: pink;
-        }
+        } */
 
-        .row2 {
+        /* .row2 {
             background-color: purple;
             display: flex;
             flex-wrap: wrap;
@@ -28,7 +28,23 @@
         }
         .row2 > div {
             background-color: pink;
-            /* width: 33.3333333%; */
+            width: 33.3333333%;
+        } */
+
+        .flexrow {
+            display: flex;
+            /* padding: 5px; */
+            background-color: purple;
+        }
+        .flexrow div {
+            margin: 5px;
+            background-color: pink;
+        }
+
+        .gridrow {
+            display: grid;
+            background-color: purple;
+            grid-template-columns: repeat(3, 1fr);
         }
     </style>
 </head>
@@ -42,7 +58,7 @@
 
     <br><br> -->
 
-    <div class="row2">
+    <!-- <div class="row2">
         <div>Div 1</div>
         <div>Div 2</div>
         <div>Div 3</div>
@@ -56,6 +72,20 @@
         <div>Div 11</div>
         <div>Div 12</div>
         
+    </div> -->
+
+    <div class="flexrow">
+        <div>Div 1</div>
+        <div>Div 2</div>
+        <div>Div 3</div>
+    </div>
+
+    <br><br>
+
+    <div class="gridrow">
+        <div>Div 1</div>
+        <div>Div 2</div>
+        <div>Div 3</div>
     </div>
     
 </body>

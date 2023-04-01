@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            margin: 50px 0;
+        }
+        img {
+            max-width: 100%;
+        }
+        .div0, .div1, .div2, .div3, .div4 {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+        .div0 {
+            /* transition-property: height, width;
+            transition-duration: 5s, 5s; */
+            transition: width 5s, height 10s;
+            transition-delay: 300ms;
+        }
+        .div0:hover {
+            /* transition: 5s; */
+            height: 300px;
+            width: 300px
+        }
+
+        .div1 {
+            transition: transform 3s;
+        }
+        .div1:hover {
+            transform: rotate(-45deg);
+        }
+
+        .div2 {
+            transition: transform 3s;
+        }
+        .div2:hover {
+            transform: skew(-20deg, -20deg);
+        }
+
+        .div3 {
+            transition: transform 3s;
+        }
+        .div3:hover {
+            transform: scale(2, 2);
+        }
+
+        .div4 img {
+            transition: transform 3s;
+        }
+        .div4 img:hover {
+            transform: translate(-20px, -20px);
+        }
+
+        .menu span {
+            display: inline-block;
+            height: 30px;
+            width: 30px;
+            border: solid;
+        }
+        .menu .dropdown {
+            position: absolute;
+            background-color: antiquewhite;
+            transform: translateX(-100px);
+            transition: transform 5s;
+            
+        }
+        .menu .dropdown a {
+            display: block;
+            text-decoration: none;
+            color: red;
+            padding: 5px;
+        }
+        .menu span:hover ~ .dropdown {
+            transform: translateX(0);
+        }
+        .menu .dropdown {
+            transform: translateX(0);
+            transition-delay: 10s;
+        }
+
+
+        .effect1, .effect2, .effect3, .effect4, .effect5 {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            margin-bottom: 10px;
+            transition: all 5s;
+        }
+        .effect1 {
+            transition-timing-function: linear;
+        }
+        .effect2 {
+            transition-timing-function: ease;
+        }
+        .effect3 {
+            transition-timing-function: ease-in;
+        }
+        .effect4 {
+            transition-timing-function: ease-out;
+        }
+        .effect5 {
+            transition-timing-function: ease-in-out;
+        }
+        div:hover {
+            width: 300px;
+        }
+        div.effect2:hover {
+            transform: scale(1.5, 1.5);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="effect1">Div 1</div>
+    <div class="effect2">Div 2</div>
+    <div class="effect3">Div 3</div>
+    <div class="effect4">Div 4</div>
+    <div class="effect5">Div 5</div>
+
+    <!-- <div class="div0">
+        Div Container
+    </div>
+
+    <br><br>
+
+    <div class="div1">
+        Div Container
+    </div>
+
+    <br><br>
+
+    <div class="div2">
+        Div Container
+    </div>
+
+    <br><br>
+
+    <div class="div3">
+        Div Container
+        <img src="images/background.jpeg" alt="">
+    </div>
+
+    <br><br>
+
+    <div class="div4">
+        <img src="images/background.jpeg" alt="">
+    </div> -->
+
+    <!-- <nav class="menu">
+        <div>
+            <span></span>
+            <div class="dropdown">
+                <a href="">Sub Menu</a>
+                <a href="">Sub Menu</a>
+                <a href="">Sub Menu</a>
+                <a href="">Sub Menu</a>
+                <a href="">Sub Menu</a>
+            </div>
+        </div>
+    </nav> -->
+    
+</body>
+</html>
