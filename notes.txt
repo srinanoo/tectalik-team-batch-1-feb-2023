@@ -486,3 +486,194 @@ Explore
     - min-width for media query
         should use at lease 2 screen sizes (576, 768 + desktop)
             - see what is the problem and let us know...
+
+
+NOTES: 02-04-2023
+
+Bootstrap
+    - Tagline
+        - One Framework, Every Device
+
+    - Approach
+        - Mobile First
+
+    - Scale Up
+        - Bootstrap
+        - AWS, Google Cloude
+            - Free Tier Plan
+                - 1st year free
+                - Afterwards its "Pay as you Go" plan
+    - Scale Down
+        - Buy a Mobile Phone
+            - Ram
+                - 8gb, 16gb
+            - Storage
+                - 64gb, 128gb, 256gb
+            - Camera
+                - 16MP, 64MP
+            - Battery
+            - Processor
+            - Display
+            - Price
+            - Connectivity
+
+        - Website conversion
+            - desktop
+            - mobile
+            - tablet
+
+CDN
+    - Content Delivery Network
+
+CORS Policy
+    - Cross Origin Resource Sharing
+
+Bootstrap Basics
+    - Spacing
+        margin
+            - in CSS
+                margin
+                margin-top
+                margin-right
+                margin-bottom
+                margin-left
+            - in Bootstrap (class name)
+                m
+                mt
+                me (e => end) - from v5, before v5 => mr
+                mb
+                ms (s => start) - from v5, before v5 => ml
+                mx (ms + me)
+                my (mt + mb)
+                    m-0
+                    m-1
+                    m-2
+                    m-3
+                    m-4
+                    m-5
+                    mx-5
+                    my-5
+                    m-auto
+                    mx-auto / my-auto
+        padding
+            - in CSS
+                padding
+                padding-top
+                padding-right
+                padding-bottom
+                padding-left
+            - in Bootstrap (class name)
+                p
+                pt
+                pe (e => end) - from v5, before v5 => pr
+                pb
+                ps (s => start) - from v5, before v5 => pl
+                px (ps + pe)
+                py (pt + pb)
+                    p-0 / pt-0 / pe-0 / pb-0 / ps-0
+                    p-1
+                    p-2
+                    p-3
+                    p-4
+                    p-5
+                    px-5
+                    py-5
+                    p-auto
+                    px-auto / py-auto
+        - Spacers (1rem => 16px)
+            0                           = 0
+            1 = 0.25rem => 0.25 x 16    = 4px
+            2 = 0.5rem => 0.5 x 16      = 8px
+            3 = 1rem => 1 x 16          = 16px
+            4 = 1.5rem => 1.5 x 16      = 24px
+            5 = 3rem = 3 x 16           = 48px
+
+    - Sizing
+        width
+            - in CSS
+                width
+            - in Bootstrap
+                w
+                    w-0
+                    w-25
+                    w-50
+                    w-75
+                    w-100
+                    w-auto
+        height
+            - in CSS
+                height
+            - in Bootstrap
+                h
+                    h-0
+                    h-25
+                    h-50
+                    h-75
+                    h-100
+                    h-auto
+        - Spacers
+            0           = 0
+            25          = 25%
+            50          = 50%
+            75          = 75%
+            100         = 100%
+
+    - Contextual Classes (Theme Colours)
+        primary - blue
+        secondary - gray
+        info - cyan
+        success - green
+        danger - red
+        warning - yellow/orange
+        dark - dark gray
+        light - light gray
+
+        - background colours
+            bg-primary
+            bg-secondary
+            bg-info
+            bg-success
+            bg-danger
+            bg-warning
+            bg-light
+            bg-dark
+
+        - text colours
+            text-primary
+            text-secondary
+            text-info
+            text-success
+            text-danger
+            text-warning
+            text-light
+            text-dark
+
+        - border colours
+            border-primary
+            border-secondary
+            border-info
+            border-success
+            border-danger
+            border-warning
+            border-light
+            border-dark
+
+        - button background
+            btn-primary
+            btn-secondary
+            btn-info
+            btn-success
+            btn-danger
+            btn-warning
+            btn-light
+            btn-dark
+
+        - button outline (border)
+            btn-outline-primary
+            btn-outline-secondary
+            btn-outline-info
+            btn-outline-success
+            btn-outline-danger
+            btn-outline-warning
+            btn-outline-light
+            btn-outline-dark
