@@ -677,3 +677,99 @@ Bootstrap Basics
             btn-outline-warning
             btn-outline-light
             btn-outline-dark
+
+NOTES: 10-04-2023
+
+Minify
+    - removing unwanted spaces and code indents
+
+    - used
+        HTML
+        CSS
+        JS
+
+ASCII
+    Amercian Standard Code for Information Interchange!
+        - ASCII Codes
+            A = 67
+            a = 95
+
+Data
+    - Number
+    - Alphabet
+    - Symbol
+    - Special characters
+
+    - Data Types (all languages)
+        - primitive types
+            string, str, char, character varying,
+            integer, int, bigin, smallint, signedint, unsignedint, shortint, longint
+            float, double, long, short
+            boolean
+            null
+            bytes
+        - non-primitive types
+            array, arraylist
+            list
+            dictionary
+            object
+            map
+            tuple
+
+        - Variable
+            <datatype> <name of the variable> = <value for the variable>
+        - Constant
+            <datatype> <name of the constant> = <value for the constant>
+
+    - DataTypes in JS
+        - untyped language
+        - implicit convert
+            - data type is determined based on the data that is stored in the variable
+
+        - Data Types in JavaScript
+            number
+            string
+            boolean
+            array - group of similar types in other languages, but in JS is any data type collection
+            object
+            null
+            undefined
+            NaN
+            Symbol
+
+        - Scoping
+            - Global
+            - Local
+            - Function/Block Level
+
+ECMA Script
+    - European Computer Manufacturers Association
+
+    - ES1, ES2, ES3, ES4, ES5, ES6, ES7, ES11
+
+
+NOTES: 21-04-2023
+
+Built-in functions/features
+    number
+        - join (add, subtract..)
+OR
+Custom functions
+    - custom logic
+
+Explore on your own (if any questions, you can clarify):
+    Member Methods of Objects available in JavaScript
+        - Number
+        - Math
+        - String
+        - Array
+        - Object
+        - Date
+
+    - toFixed() = rounding is not exactly greater than or equal 5 = THIS IS NOT EXACTLY THE EXPLANATION...
+
+HTML FORM
+    <input type="text" name="name"> => string
+    <input type="number" name="number"> => string
+
+total=100||||correct=88||||560=D||$||561=B||$||562=B||$||563=D||$||564=B||$||565=C||$||566=C||$||567=C||$||568=D||$||569=B||$||570=C||$||571=C||$||572=B||$||573=D||$||574=A||$||575=C||$||576=C||$||577=A||$||578=D||$||579=A||$||580=B||$||581=D||$||582=C||$||583=C||$||584=B||$||585=D||$||586=C||$||587=D||$||588=B||$||589=A||$||590=D||$||591=D||$||592=B||$||593=A||$||594=A||$||595=C||$||596=D||$||597=C||$||598=D||$||599=B||$||600=A||$||601=C||$||602=B||$||603=A||$||604=B||$||605=D||$||606=C||$||607=D||$||608=A||$||609=D||$||610=D||$||611=B||$||612=B||$||613=C||$||614=C||$||615=C||$||616=B||$||617=B||$||618=C||$||619=A||$||620=B||$||621=C||$||622=D||$||623=D||$||624=B||$||625=B||$||626=A||$||627=C||$||628=A||$||629=D||$||630=C||$||631=D||$||632=C||$||633=D||$||634=A||$||635=B||$||636=B||$||637=D||$||638=A||$||639=A||$||640=C||$||641=C||$||642=C||$||643=C||$||644=B||$||645=B||$||646=C||$||647=B||$||648=B||$||649=D||$||650=B||$||651=A||$||652=B||$||653=C||$||654=B||$||655=B||$||656=A||$||657=A||$||658=C||$||659=A||$||
